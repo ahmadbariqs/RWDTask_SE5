@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+
+    header{
+        background: #EDFF00;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo{
+        font-size: 20px;
+        font-weight: bolder;
+        color: #000000;
+        padding: 10px;
+
+    }
+
+    header .navbar a{
+        margin: 25px;
+        font-size: 14px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    header .navbar a:hover{
+        text-decoration: underline;
+    }
+
+    .home{
+        height: 400px;
+        width: auto;
+        background-color: #EDFF00;
+    }
+
+    .home .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .content h2{ 
+       margin: 80px;
+       font-size: 30px;
+       text-align: center;
+    }
+
+    .home .content h3{ 
+        font-size: 20px;
+        text-align: center;
+     }
+
+     
+    .about{
+        height: 350px;
+        width: auto;
+        background-color: #000000;
+    }
+
+    .about .content{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .content img{ 
+        margin: 50px;
+        width: 200px;
+        height: 200px;
+     }
+
+
+    .about .content h2{ 
+       margin: 50px;
+       font-size: 30px;
+       color: #EDFF00;
+    }
+
+     .edu{
+        height: 250px;
+        width: auto;
+        background-color: #EDFF00;
+    }
+
+    .edu .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .edu .content h2{ 
+       margin: 50px;
+       font-size: 40px;
+    }
+
+    .edu .content h3{ 
+        font-size: 25px;
+     }
+
+     .edu .credit {
+        text-align: center;
+        color: #000000;
+        font-size: 18px;
+        padding: 2rem 1rem;
+        margin-top: 2.5rem;
+        background-color: #EDFF00;
+      }
+      
+      .edu .credit span {
+        color: #000;
+        opacity: 0.5;
+        font-weight: bold;
+      }
+    }
